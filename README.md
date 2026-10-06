@@ -1,2 +1,3 @@
-# arjaybowers-dot.github.io
-Ahhh, I'm naked, get out!
+# welcome to my website : arjaybowers-dot.github.io
+# By : arjaybowers
+# 2026
