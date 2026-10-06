@@ -1,0 +1,41 @@
+/*This is a css, it has style that cascades the sheets.
+*/
+body {
+background-color: rgb(119, 0, 255);
+color: yellowgreen;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+h1 {
+color: black
+ 
+ 
+ 
+ 
+}
+
+div{
+    background-image: url('banner.png')
+    margin: auto;
+    padding: auto;
+    width:100%
+}
+
+.important {
+background-color: rgb(230, 19, 4);    
+}
+
+#oneElement {
+background-color: rgb(72, 4, 230);
+}
+/* styling the div with class name nav 
+.nav{
+ 
+ 
+ 
+ 
+ 
+}
+*/
