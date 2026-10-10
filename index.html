@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
-********************************************************
-Project Name: website testing/html/linking
-Developer Name: Rob Bowers  
-LMD: Sept 23, 2026
-********************************************************
--->
+    <!--add another nav menue for mobile
+remove the header
+link sections to the nav bar links
+apply 60 30 10 color rule
+ -->
 
 <head>
    
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   
-
-    <title>☺Rob Bowers Leranin☻</title>
-
- <!--favicon linked here-->
+     <!--favicon linked here-->
     <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16 32x32">
 
         <!--js linked here-->
@@ -28,36 +19,49 @@ LMD: Sept 23, 2026
       <!-- The CSS file is linked here-->
     <link rel="stylesheet" href="./styles/style.css">
 
+
+    <title>My Website</title>
+
+    
 </head>
+
 <body>
-    
 
-    <center><h2><a href="index.html">Home</a>  | <a href="contactus.html">Contact Us </a> | <a href="about.html"> About </a> </h2></center>
-   
-    <marquee><b><h1>Rob's Website</h1></b></marquee>
+    <header>
+        <h1>My Website</h1>
+    </header>
 
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
 
-    <center><a href="https://company.wizards.com/en"><img src="./images/banner.png"></a></center>
+    <main>
 
-    <br>
-    <center><h3>This is my body! 
-    <br>
-    It is a powerful body! 
-    <br>
-    A robust body! 
-    <br>
-    The thinking bodies...body!
-    </h3></center>
-    <center><br><p class="important" >This is a paragraph. 
-    It is made of sentences and can be used to 
-    covey thoughts<br>and feelings.
-    I love my paragraph, I made it myself.
+        <section>
+            <h2>Welcome</h2>
+            <p>This is the first section of the website.</p>
+        </section>
 
-</p></center>
+        <section>
+            <h2>About</h2>
+            <p>This section can contain information about the website.</p>
+        </section>
 
-     <center><p id="oneElement">weeeeeeeeeeeeee</p></center>
-<iframe src="https://youtube.com/embed/RkFpy4kayvY" width="560" height="315" frameborder="1" allowfullscreen></iframe>
-    
+        <section>
+            <h2>Contact</h2>
+            <p>This section can contain contact information.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>

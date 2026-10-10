@@ -1,41 +1,44 @@
-/*This is a css, it has style that cascades the sheets.
-*/
 body {
-background-color: rgb(119, 0, 255);
-color: yellowgreen;
-font-size: 30px;
-font-family: Arial, Helvetica, sans-serif;
-}
- 
-
-h1 {
-color: black
- 
- 
- 
- 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
-div{
-    background-image: url('banner.png')
-    margin: auto;
-    padding: auto;
-    width:100%
+header {
+    background-color: #4f6d7a;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.important {
-background-color: rgb(230, 19, 4);    
+nav {
+    background-color: #6f8f9c;
+    text-align: center;
+    padding: 15px;
 }
 
-#oneElement {
-background-color: rgb(72, 4, 230);
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
 }
-/* styling the div with class name nav 
-.nav{
- 
- 
- 
- 
- 
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
 }
-*/
+
+section {
+    background-color: #e8f1f2;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4f6d7a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
