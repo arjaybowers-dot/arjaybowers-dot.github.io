@@ -2,8 +2,8 @@
 
 :root {
 --primary:#b9ecb4;
---secondary:rgba(12, 145, 145, 0.534);
---accent:rgb(72, 253, 0);
+--secondary:#0c919188;
+--accent:#48fd00;
 --bgcolor:#4f7a6d;
 --nav_bg: #053829;
 --header: #053829;
@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: var(--bgcolor);
-    background-image: url('../images/bg.jpg') ;
+    background-image: url('../images/bg.jpg');
     background-repeat: repeat;
     background-attachment: scroll;
 }
